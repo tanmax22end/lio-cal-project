@@ -3,10 +3,6 @@ import { AccessibilityInfo } from 'react-native';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
 const MyScreenSelector = () => {
-
-
-    const [previousNumber, setPreviousNumber] = useState('');
-    const [previousOperator, setPreviousOperator] = useState('');
     const [currentNumber, setCurrentNumber] = useState('');
     const [displayValue, setDisplayValue] = useState('0');
 
